@@ -10,7 +10,7 @@ Yes, I hate when a plugin or a class, instead of given me the tools to make my w
 HOW TO USE
 ===
 
-Open your bootstra.php file (located at fuel/app/), and add the IFF to autoloader, like this:
+Open your bootstrap.php file (located at fuel/app/) and add IFF to autoloader, like this:
 ```php
 Autoloader::add_classes(array(
 	// Add classes you want to override here
